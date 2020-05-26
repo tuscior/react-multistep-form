@@ -2,7 +2,7 @@ import React from 'react';
 import { Header } from './app/components/Header/Header.jsx';
 import MultiStepForm  from './app/components/Forms/MultiStepForm/MultiStepForm'
 
-const steps = [{ component: "name", id:"name"}, { id: "address"}, { id:"contact"}, { id: "review"}, { id: "thankyou"}]
+const steps = [{ id:"name", fields: ['firstName', 'lastName']}, { id: "address", fields: ['street', 'country', 'city', 'zip']}, { id:"contact", fields: ['email', 'mobile']}, { id: "review", fields: {}}, { id: "thankyou"}]
 
 
 const data = {
