@@ -1,0 +1,1 @@
+export const sendFormData = async _ => await new Promise(resolve => setTimeout(() => resolve('ok'), 2000))
