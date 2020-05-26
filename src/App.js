@@ -13,7 +13,7 @@ const data = {
   city: "Careless Whisper",
   zip: "90505",
   email: "george@lovesyou.com",
-  mobile: "+61 4252 454 332"
+  mobile: "+61 4252 454 332" 
 };
 
 function App() {
